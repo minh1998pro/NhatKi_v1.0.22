@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="top"
+              android:layout_margin="4dp"
+    android:background="@drawable/bg_item_nhatki">
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:maxLines="1"
+        android:id="@+id/txtTieuDeNhatKi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiêu đề"
+        android:textStyle="bold"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:textSize="40sp"
+        android:id="@+id/txtNoiDungNhatKi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung"/>
+
+    <TextView
+        android:gravity="right"
+        android:textSize="8sp"
+        android:textColor="#ffffff"
+        android:id="@+id/txtThoiGian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="thoi gian"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/bg_time_nhatki"/>
+</LinearLayout>

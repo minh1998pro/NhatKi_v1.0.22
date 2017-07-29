@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Nhật Kí</string>
+    <string name="title_activity_login2">Đăng nhập</string>
+
+    <!-- String login -->
+    <string name="login_success">Đăng nhập thành công!</string>
+    <string name="login_fail">Đăng nhập thất bại :( !</string>
+    <string name="pass_wrong">Mật khẩu của bạn không chính xác. :(</string>
+    <string name="username_exists">Tài khoản này đã tồn tại, vui lòng chọn một tài khoản khác hoặc cập nhật lại đúng thông tin tài khoản.</string>
+    <string name="notice_online">Thiết bị đang Online, tự động đồng bộ dữ liệu của bạn lên internet.</string>
+    <string name="notice_offline">Thiết bị đang Offline, ứng dụng sẽ hoạt động với chế độ Offline. :)</string>
+    <!-- String NhatKi-->
+    <string name="add_nhatki_success">Thêm nhật kí thành công!</string>
+    <string name="add_nhatki_fail">Thêm nhật kí thất bại :( !</string>
+    <string name="asyn_success">Đồng bộ dữ liệu thành công!</string>
+    <string name="asyn_fail">Đồng bộ dữ liệu thất bại :( !</string>
+    <!-- String change info-->
+    <string name="change_info_success">Cập nhật thông tin tài khoản thành công!</string>
+    <string name="change_info_fail">Cập nhật thông tin tài khoản thất bại :( !</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="info_account">Thông tin tài khoản.</string>
+    <string name="save_info_success">Lưu thông tin thành công!</string>
+    <string name="save_info_fail">Lưu thông tin thất bại :( !</string>
+    <string name="info_empty">Chưa nhập thông tin.</string>
+    <string name="cant_save_sharepreference">Không thể lưu sharePreference</string>
+    <string name="not_exists_username">Chưa tồn tại tài khoản.</string>
+    <string name="exists_username">Đã tồn tại tài khoản trong hệ thống.</string>
+    <string name="pass_empty">Chưa nhập mật khẩu!</string>
+    <string name="continue_use_account">Tài khoản này đã được sử dụng bởi lần đăng nhập trước, hãy nhập mật khẩu để tiếp tục, Username</string>
+    <string name="ask_exit_app">Bạn có thực sự muốn thoát ứng dụng không :) ?</string>
+    <string name="insert_info_account">insert thông tin tài khoản.</string>
+    <string name="add_account_fail">Thêm tài khoản thất bại :( .</string>
+    <string name="add_account_success">Thêm tài khoản thành công.</string>
+    <string name="connect_fail">Gặp sự cố kết nối :( !</string>
+    <string name="content_empty">Chưa nhập nội dung.</string>
+    <string name="account_wrong">Mật khẩu không chính xác, hãy cập nhật lại mật khẩu và tiến hành đồng bộ dữ liệu.</string>
+    <string name="logout_fail">Đăng xuất thất bại :( !</string>
+    <string name="logout_success">Đăng xuất thành cong :) !</string>
+    <string name="device_is_offline">Thiết bị của bạn hiện đang Offline !</string>
+    <string name="register_account_fail">Đăng kí tài khoản thất bại :( !</string>
+    <string name="register_account_success">Đăng kí tài khoản thành công :) !</string>
+    <string name="account_exists">Tài khoản đã có người đăng kí, vui lòng chọn tài khoản khác nhé :) !</string>
+    <string name="date_format">HH:mm-dd/MM/yyyy</string>
+    <string name="login_onine">Đăng nhập Online.</string>
+    <string name="login_offline">Đăng nhập Online(Thiết bị hiện đang Offline).</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_editAccount"
+            android:title="Cập nhật tài khoản"/>
+        <item
+            android:id="@+id/item_dong_bo_nhatki"
+            android:title="Đồng bộ dữ liệu với Internet"/>
+
+        <item
+            android:id="@+id/item_share"
+            android:title="Chia sẻ ứng dụng"/>
+        <item
+            android:id="@+id/item_rate"
+            android:title="Đánh giá ứng dụng"/>
+
+
+        <item
+            android:id="@+id/item_Logout"
+            android:title="Đăng nhập tài khoản khác."/>
+
+    </group>
+
+
+</menu>

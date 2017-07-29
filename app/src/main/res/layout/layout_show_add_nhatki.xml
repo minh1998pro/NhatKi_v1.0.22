@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/bg_show_add_nhatki">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Nhập nhật kí."
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/editTieuDeNhatKi"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Tiêu đề"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:layout_below="@id/editTieuDeNhatKi"
+        android:id="@+id/editNoiDungNhatKi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|start"
+        android:maxLines="7"
+        android:inputType="textMultiLine"
+        android:hint="Nội dung."/>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:id="@+id/btnCancel"
+            android:background="@drawable/bg_btn_cancel"
+
+            android:textColor="@color/colorPrimary"/>
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:text="Ok"
+            android:textAllCaps="false"
+            android:id="@+id/btnOk"
+            android:background="@drawable/bg_btn_ok"
+            android:textColor="@color/colorAccent"/>
+    </LinearLayout>
+</LinearLayout>
