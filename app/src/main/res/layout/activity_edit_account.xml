@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context="com.example.minh98.nhatki.activities.EditAccountActivity">
+    tools:context="com.example.minh98.diary.edit_account.view.EditAccountActivity">
 
 
     <android.support.v7.widget.Toolbar

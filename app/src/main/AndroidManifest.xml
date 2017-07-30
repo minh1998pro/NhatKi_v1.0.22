@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.minh98.nhatki">
+          package="com.example.minh98.diary">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
@@ -16,7 +16,7 @@
         android:roundIcon="@mipmap/diary_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.LoginActivity">
+        <activity android:name="com.example.minh98.diary.login.view.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -24,14 +24,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.RegisterActivity">
+        <activity android:name="com.example.minh98.diary.register.view.RegisterActivity">
         </activity>
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.example.minh98.diary.main.view.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme">
         </activity>
-        <activity android:name=".activities.EditAccountActivity">
+        <activity android:name="com.example.minh98.diary.edit_account.view.EditAccountActivity">
         </activity>
     </application>
 

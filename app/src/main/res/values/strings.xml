@@ -9,7 +9,7 @@
     <string name="username_exists">Tài khoản này đã tồn tại, vui lòng chọn một tài khoản khác hoặc cập nhật lại đúng thông tin tài khoản.</string>
     <string name="notice_online">Thiết bị đang Online, tự động đồng bộ dữ liệu của bạn lên internet.</string>
     <string name="notice_offline">Thiết bị đang Offline, ứng dụng sẽ hoạt động với chế độ Offline. :)</string>
-    <!-- String NhatKi-->
+    <!-- String Diary-->
     <string name="add_nhatki_success">Thêm nhật kí thành công!</string>
     <string name="add_nhatki_fail">Thêm nhật kí thất bại :( !</string>
     <string name="asyn_success">Đồng bộ dữ liệu thành công!</string>
@@ -52,4 +52,7 @@
     <string name="date_format">HH:mm-dd/MM/yyyy</string>
     <string name="login_onine">Đăng nhập Online.</string>
     <string name="login_offline">Đăng nhập Online(Thiết bị hiện đang Offline).</string>
+    <string name="username_empty">Chưa nhập Tài Khoản.</string>
+    <string name="repass_wrong">Mật khẩu xác nhận không chính xác.</string>
+    <string name="repass_empty">Chưa nhập mật khẩu xác nhận.</string>
 </resources>
